@@ -29,7 +29,7 @@ install(FILES ../collision_detector_bullet_description.xml DESTINATION ${CATKIN_
 
 if(CATKIN_ENABLE_TESTING)
   find_package(moveit_resources REQUIRED)
-  include_directories(${moveit_resources_INCLUDE_DIRS})
+  include_directories(SYSTEM ${moveit_resources_INCLUDE_DIRS})
 
   catkin_add_gtest(test_bullet_collision_detection test/test_bullet_collision_detection_pr2.cpp)
   target_link_libraries(test_bullet_collision_detection moveit_test_utils ${MOVEIT_LIB_NAME} ${Boost_LIBRARIES})

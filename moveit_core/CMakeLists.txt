@@ -175,16 +175,16 @@ catkin_package(
 include_directories(SYSTEM ${EIGEN3_INCLUDE_DIRS}
                            ${LIBFCL_INCLUDE_DIRS}
                            ${BULLET_INCLUDE_DIRS}
-                           )
+                           ${Boost_INCLUDE_DIRS}
+                           ${catkin_INCLUDE_DIRS}
+                           ${urdfdom_INCLUDE_DIRS}
+                           ${urdfdom_headers_INCLUDE_DIRS}
+                           ${OCTOMAP_INCLUDE_DIRS}
+                    )
 
 #catkin_lint: ignore_once external_directory  (${VERSION_FILE_PATH})
 include_directories(${THIS_PACKAGE_INCLUDE_DIRS}
                     ${VERSION_FILE_PATH}
-                    ${Boost_INCLUDE_DIRS}
-                    ${catkin_INCLUDE_DIRS}
-                    ${urdfdom_INCLUDE_DIRS}
-                    ${urdfdom_headers_INCLUDE_DIRS}
-                    ${OCTOMAP_INCLUDE_DIRS}
                     )
 
 # Generate and install version.h
