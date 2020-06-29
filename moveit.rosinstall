@@ -36,3 +36,7 @@
     local-name: eigen_stl_containers
     uri: https://github.com/ros/eigen_stl_containers.git
     version: master
+- git:
+    local-name: object_recognition_msgs
+    uri: https://github.com/wg-perception/object_recognition_msgs.git
+    version: master
