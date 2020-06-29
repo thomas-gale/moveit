@@ -28,3 +28,31 @@
     local-name: panda_moveit_config
     uri: https://github.com/ros-planning/panda_moveit_config.git
     version: melodic-devel
+
+####################################
+# Remove the following once released
+####################################
+- git:
+    local-name: srdfdom
+    uri: https://github.com/ros-planning/srdfdom.git
+    version: melodic-devel
+- git:
+    local-name: ros_pytest
+    uri: https://github.com/sfalexrog/ros_pytest.git
+    version: python3_compat
+- git:
+    local-name: joystick_drivers
+    uri: https://github.com/ros-drivers/joystick_drivers.git
+    version: master
+- git:
+    local-name: teleop_tools
+    uri: https://github.com/ros-teleop/teleop_tools.git
+    version: kinetic-devel
+- git:
+    local-name: moveit_resources
+    uri: https://github.com/ros-planning/moveit_resources.git
+    version: master
+- git:
+    local-name: franka_ros
+    uri: https://github.com/frankaemika/franka_ros.git
+    version: melodic-devel
