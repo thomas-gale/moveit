@@ -60,3 +60,7 @@
     local-name: octomap_msgs
     uri: https://github.com/OctoMap/octomap_msgs.git
     version: melodic-devel
+- git:
+    local-name: rviz
+    uri: https://github.com/ros-visualization/rviz.git
+    version: melodic-devel
