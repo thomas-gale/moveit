@@ -40,3 +40,11 @@
     local-name: object_recognition_msgs
     uri: https://github.com/wg-perception/object_recognition_msgs.git
     version: master
+- git:
+    local-name: graph_msgs
+    uri: https://github.com/PickNikRobotics/graph_msgs.git
+    version: jade-devel
+- git:
+    local-name: random_numbers
+    uri: https://github.com/ros-planning/random_numbers.git
+    version: master
