@@ -48,3 +48,7 @@
     local-name: random_numbers
     uri: https://github.com/ros-planning/random_numbers.git
     version: master
+- git:
+    local-name: resource_retriever
+    uri: https://github.com/ros/resource_retriever.git
+    version: kinetic-devel
