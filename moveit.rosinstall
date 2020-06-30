@@ -52,3 +52,11 @@
     local-name: resource_retriever
     uri: https://github.com/ros/resource_retriever.git
     version: kinetic-devel
+- git:
+    local-name: roslint
+    uri: https://github.com/ros/roslint.git
+    version: master
+- git:
+    local-name: octomap_msgs
+    uri: https://github.com/OctoMap/octomap_msgs.git
+    version: melodic-devel
